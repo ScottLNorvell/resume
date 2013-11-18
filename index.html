@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Scott's Resume</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">Scott L Norvell</h1>
+			<h6 class="tag">{+} Full-Stack Web Developer {+} Composer {+} Chef {+} Musician {+} Karaoke Legend {+}</h6>
+			<small>47-43 44th ST APT 3R {+} Woodside, NY 11377</small>
+			<hr class="remove-bottom" />
+		</div>
+		<div class="four columns">
+			<p><span class="label">PHONE</span>: <em>646-696-8188</em></p>
+		</div>		
+		<div class="four columns">
+			<p><span class="label">EMAIL</span>: <em>Scottlnorvell@gmail.com</em></p>
+		</div>
+		<div class="four columns">
+			<p><span class="label">GITHUB</span>: <em>github.com/ScottLNorvell</em></p>
+		</div>
+		<div class="four columns">
+			<p><span class="label">PORTFOLIO</span>: <em>scottlnorvell.com</em></p>
+		</div>
+		<div class="nine columns">
+			<h3><%= Skills %></h3>
+			<hr class="remove-bottom">
+			<ul >
+				<li>
+					<h5><span class="pl">Programming Languages:</span> <small class="skills">Ruby, Javascript, Python, SQL, HTML, CSS</small></h5>
+				</li>
+				<li>
+					<h5><span class="pl">Web Frameworks:</span> <small class="skills">Ruby on Rails, Sinatra, Google App Engine</small></h5>
+				</li>
+				<li>
+					<h5><span class="pl">Front-End Libraries:</span> <small class="skills">jQuery, jQuery UI, jQuery Mobile, Backbone.js, Kinetic.js, D3.js, SoundManager2</small></h5>
+				</li>
+				<li>
+					<h5><span class="pl">Operating Systems:</span> <small class="skills">Mac OS X, Linux (Ubuntu, Debian), Windows</small></h5>
+				</li>
+				<li>
+					<h5><span class="pl">Database:</span> <small class="skills">PostgresQL, MySQL, MongoDB</small></h5>
+				</li>
+				<li>
+					<h5><span class="pl">Other Technologies:</span> <small class="skills">Git, PivotalTracker</small></h5>
+				</li>
+				<li>
+					<h5><span class="pl" >Programming Philosophies:</span> <small class="skills">Behavior Driven Development (BDD), Test Driven Development (TDD), Strong believer in clean and consistently formatted code!</small></h5>
+				</li>
+
+			</ul>
+			<h3><%= Projects %></h3>
+			<hr class="remove-bottom">
+			<h5>Sound-Ocean (sound-ocean.com)</h5>
+			<h6>Technologies: KineticJS, KeyboardJS, HTML5 Audio, SoundCloud API, </h6>
+			<h6>Ruby on Rails</h6>
+			<p><strong>[October, 2013]</strong> Sound-Ocean provides a unique interactive music discovery experience by allowing the user to first choose a genre and then "swim through the ocean of sound," discovering songs streaming from the SoundCloud api. The user can save songs to a playlist and compete with friends for the most songs discovered. Three people worked on the project. I contributed the interactive visual elements as well as integrating with the SoundCloud API, the bulk of which was completed in one week.</p>
+			<h5>ABCrowd-Composers (abcrowd-composers.herokuapp.com)</h5>
+			<h6>Technologies: PostgresQL, Ruby on Rails</h6>
+			<p><strong>[September, 2013]</strong> Crowd-Sourced music creation platform for educational songs. Through highly-relational postgres database models, users can edit and create their own original lyrics for educational songs about any topic. I created a version control system from the ground up so that users could save their own versions of songs and vote on the best to arrive at the definitive version.</p>
+			<h5>Move My Words (movemywords.com)</h5>
+			<h6>Technologies: D3.js, Ruby on Rails, jQuery</h6>
+			<p><strong>[November, 2013]</strong> We've all been moved by words. Why not move them back? Move My Words is an interactive blogging platform that allows a user to enter a micropost and play interactive games with the text through the use of D3 text visualization.</p>
+			
+		</div>
+		<div class="seven columns">
+			<h3><%= Education %></h3>
+			<hr class="remove-bottom">
+			<ul>
+				<li>
+					<h5 class="school">General Assembly</h5>
+					<p class="remove-bottom">Web Development Immersive</p>
+					<p> New York 2013</p>
+					<p>Intensive Full-Stack, project-driven web development course.</p>
+				</li>
+				<li>
+					<h5 class="school">UDACITY.COM</h5>
+					<p class="remove-bottom">Self-guided study: Computer Science</p>
+					<p> New York 2012-2013</p>
+					<p>Various self-directed programs including Computer Science, Web Development, Algorithms, Design of Computer Languages and Computer Programs</p>
+				</li>
+				<li>
+					<h5 class="school">Oral Roberts University</h5>
+					<p class="remove-bottom">Bachelor of Arts, Music (2001)</p>
+					<p>Tulsa, OK 1997-2001</p>
+				</li>
+
+			</ul>
+			<h3><%= Other Experience %></h3>
+			<hr class="remove-bottom">
+			<h4>Wizard Studios, New York, NY </h4>
+			<h6>Operations Manager and Project Director 2006-2012</h6>
+			<p>Responsible for logistics involved in day-to-day operations of a high-volume event production company, including hiring and management of freelance staff.</p>
+			<h4>Grass, A Musical Comedy in One Act</h4>
+			<h6>Producer/Writer/Director/Performer 2003</h6>
+			<p>Responsible for all aspects of producing this independent project. Successfully coordinated a sold-out production run of six performances</p>
+			<h3><%= Interests %></h3>
+			<hr class="remove-bottom">
+			<p>Innovative amateur chef and grill master. Coordinate highly-anticipated bimonthly barbecues for as many as 50 people. Composer and musician. Maintain and operate amateur music studio out of my home. Collector of unique musical instruments. Karaoke legend. </p>
+		</div>
+		<div class="sixteen columns">
+			
+		</div>
+
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
