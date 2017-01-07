@@ -74,34 +74,34 @@ Complete rewrite based on video.js and Reactive (RxJS) programming concepts.
 - Ember Cookie Monster
 
 ### Technologies
-- HTML/CSS/SASS/Markdown
-- Optimizely A/B testing
-- Bootstrap/Foundation/Bourbon
-- Build Tools
-  + Webpack
-  + Broccoli
-  + Rollup
-- Tools
-  + Chrome DevTools
-  + npm
-  + git
+x- HTML/CSS/SASS/Markdown
+x- Optimizely A/B testing
+x- Bootstrap/Foundation/Bourbon
+x- Build Tools
+x  + Webpack
+x  + Broccoli
+x  + Rollup
+x- Tools
+x  + Chrome DevTools
+x  + npm
+x  + git
   + 
 - Javascript
-  + Ember
+x  + Ember
   + ES6/ES2015/ESNext
-  + React
-  + D3
-  + Node
-  + jQuery
-  + Backbone
-  + QUnit
-  + Jasmine
+x  + React
+x  + D3
+x  + Node
+x  + jQuery
+x  + Backbone
+x  + QUnit
+x  + Jasmine
   + 
 - Ruby
-  + Rails
-  + RSpec
-  + Capybara
-  + Jekyll
+x  + Rails
+x  + RSpec
+x  + Capybara
+x  + Jekyll
 - Python
 - 
 - MongoDB - wiz at optimization
