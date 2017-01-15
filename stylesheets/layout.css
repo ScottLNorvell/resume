@@ -33,17 +33,17 @@ h3 {
 	letter-spacing: 2px;
 }
 
-.tag {
-	font-family: helvetica;
-}
-
 .pl {
 	border-bottom: 0px;
 }
 
-.skills {
-	font-family: helvetica;
+.skills, .description, .date, .mark, .tag{
+	font-family: Helvetica, Arial, sans-serif;
 }
+
+/*.job-details {
+	margin-left: 15px;
+}*/
 
 a {
 	text-decoration: none;
@@ -53,6 +53,27 @@ a:hover {
 	text-decoration: underline;
 }
 
+small.description, small.date {
+	font-style: italic;
+}
+
+h6.tech {
+	font-size: 12px;
+}
+
+/*ul.projects h5 {
+	float: left;
+}
+ul.projects h5:after {
+	content: ':';
+}
+ul.projects h6 {
+	float: left;
+	margin-left: 10px;
+}
+ul.projects p {
+	clear: both;
+}*/
 
 
 /* #Media Queries
