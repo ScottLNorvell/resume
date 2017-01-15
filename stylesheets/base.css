@@ -50,9 +50,12 @@
 
 /* #Basic Styles
 ================================================== */
+	html {
+		font-size: 62.5%
+	}
 	body {
 		background: #fff;
-		font: 14px/21px Helvetica, Arial, sans-serif;
+		font: 1.4rem/2.1rem Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -65,26 +68,26 @@
 		color: #181818;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-	h5 { font-size: 17px; line-height: 24px; }
-	h6 { font-size: 14px; line-height: 21px; }
+	h1 { font-size: 4.6rem; line-height: 5.0rem; margin-bottom: 1.4rem;}
+	h2 { font-size: 3.5rem; line-height: 4.0rem; margin-bottom: 1.0rem; }
+	h3 { font-size: 2.8rem; line-height: 3.4rem; margin-bottom: 0.8rem; }
+	h4 { font-size: 2.1rem; line-height: 3.0rem; margin-bottom: 0.4rem; }
+	h5 { font-size: 1.7rem; line-height: 2.4rem; }
+	h6 { font-size: 1.4rem; line-height: 2.1rem; }
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; }
 	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+	p.lead { font-size: 2.1rem; line-height: 2.7rem; color: #777;  }
 
 	em { font-style: italic; }
 	strong { font-weight: bold; color: #333; }
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
-	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote, blockquote p { font-size: 1.7rem; line-height: 2.4rem; color: #777; font-style: italic; }
+	blockquote cite { display: block; font-size: 1.2rem; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
 	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 
@@ -146,7 +149,7 @@
 	  border-radius: 3px;
 	  color: #444;
 	  display: inline-block;
-	  font-size: 11px;
+	  font-size: 1.1rem;
 	  font-weight: bold;
 	  text-decoration: none;
 	  text-shadow: 0 1px rgba(255, 255, 255, .75);
@@ -223,7 +226,7 @@
 		-moz-border-radius: 2px;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
-		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 1.3rem "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
 		width: 210px;
@@ -248,7 +251,7 @@
 	legend {
 		display: block;
 		font-weight: bold;
-		font-size: 13px;  }
+		font-size: 1.3rem;  }
 	select {
 		width: 220px; }
 	input[type="checkbox"] {
@@ -256,7 +259,7 @@
 	label span,
 	legend span {
 		font-weight: normal;
-		font-size: 13px;
+		font-size: 1.3rem;
 		color: #444; }
 
 /* #Misc
