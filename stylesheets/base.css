@@ -55,7 +55,7 @@
 	}
 	body {
 		background: #fff;
-		font: 1.4rem/2.1rem Helvetica, Arial, sans-serif;
+		font: 1.2rem/2.1rem Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -82,7 +82,7 @@
 
 	em { font-style: italic; }
 	strong { font-weight: bold; color: #333; }
-	small { font-size: 80%; }
+	small { font-size: 85%; }
 
 /*	Blockquotes  */
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
