@@ -1,0 +1,22 @@
+{
+  "name": "scotts-resume",
+  "version": "1.0.0",
+  "description": "The resume of Scott Norvell.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cat stylesheets/{base,skeleton,layout}.css >> tmp.css && minify tmp.css -o css/style.min.css && rm tmp.css && echo 'Done! Now edit index.html to point to css/style.min.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottLNorvell/resume.git"
+  },
+  "author": "Scott Norvell <scottlnorvell@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottLNorvell/resume/issues"
+  },
+  "homepage": "http://scottlnorvell.com/resume/",
+  "devDependencies": {
+    "minifier": "0.8.0"
+  }
+}
